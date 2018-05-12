@@ -13,8 +13,6 @@
 		F5FD02EA1E69457B003F38C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FD02E81E69457B003F38C3 /* Main.storyboard */; };
 		F5FD02EC1E69457B003F38C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5FD02EB1E69457B003F38C3 /* Assets.xcassets */; };
 		F5FD02EF1E69457B003F38C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FD02ED1E69457B003F38C3 /* LaunchScreen.storyboard */; };
-		F5FD02FA1E69457B003F38C3 /* RuntimeAssistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FD02F91E69457B003F38C3 /* RuntimeAssistTests.m */; };
-		F5FD03051E69457B003F38C3 /* RuntimeAssistUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FD03041E69457B003F38C3 /* RuntimeAssistUITests.m */; };
 		F5FD03141E694598003F38C3 /* RuntimeAssist.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FD03131E694598003F38C3 /* RuntimeAssist.m */; };
 /* End PBXBuildFile section */
 
@@ -47,11 +45,7 @@
 		F5FD02EE1E69457B003F38C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5FD02F01E69457B003F38C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5FD02F51E69457B003F38C3 /* RuntimeAssistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeAssistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5FD02F91E69457B003F38C3 /* RuntimeAssistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeAssistTests.m; sourceTree = "<group>"; };
-		F5FD02FB1E69457B003F38C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5FD03001E69457B003F38C3 /* RuntimeAssistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeAssistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5FD03041E69457B003F38C3 /* RuntimeAssistUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeAssistUITests.m; sourceTree = "<group>"; };
-		F5FD03061E69457B003F38C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5FD03121E694598003F38C3 /* RuntimeAssist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeAssist.h; sourceTree = "<group>"; };
 		F5FD03131E694598003F38C3 /* RuntimeAssist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeAssist.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				F5FD02DE1E69457B003F38C3 /* RuntimeAssist */,
-				F5FD02F81E69457B003F38C3 /* RuntimeAssistTests */,
-				F5FD03031E69457B003F38C3 /* RuntimeAssistUITests */,
 				F5FD02DD1E69457B003F38C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,24 +117,6 @@
 				F5FD02E01E69457B003F38C3 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F5FD02F81E69457B003F38C3 /* RuntimeAssistTests */ = {
-			isa = PBXGroup;
-			children = (
-				F5FD02F91E69457B003F38C3 /* RuntimeAssistTests.m */,
-				F5FD02FB1E69457B003F38C3 /* Info.plist */,
-			);
-			path = RuntimeAssistTests;
-			sourceTree = "<group>";
-		};
-		F5FD03031E69457B003F38C3 /* RuntimeAssistUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F5FD03041E69457B003F38C3 /* RuntimeAssistUITests.m */,
-				F5FD03061E69457B003F38C3 /* Info.plist */,
-			);
-			path = RuntimeAssistUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5FD02FA1E69457B003F38C3 /* RuntimeAssistTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +270,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5FD03051E69457B003F38C3 /* RuntimeAssistUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +483,7 @@
 				F5FD030B1E69457B003F38C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5FD030C1E69457B003F38C3 /* Build configuration list for PBXNativeTarget "RuntimeAssistTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +492,7 @@
 				F5FD030E1E69457B003F38C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5FD030F1E69457B003F38C3 /* Build configuration list for PBXNativeTarget "RuntimeAssistUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +501,7 @@
 				F5FD03111E69457B003F38C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
